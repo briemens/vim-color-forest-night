@@ -173,6 +173,40 @@ hi! link scssVariable Green
 hi! link scssClassChar Yellow
 hi! link lessVariable Green
 hi! link lessMixinChar Grey
+hi! link javascriptVariableDef Aqua
+hi! link javascriptObjectProp Green
+hi! link javascriptObjectKey Blue
+hi! link javascriptParen Aqua
+hi! link javascriptBracket Aqua
+hi! link javascriptParenIfElse Aqua
+hi! link javascriptParenRepeat Aqua
+hi! link javascriptParenSwitch Aqua
+hi! link javascriptGlobalObjects Yellow
+hi! link javascriptFuncArgs Aqua
+hi! link javascriptFunctionKey Green
+hi! link javascriptThis Magenta
+hi! link javascriptOperatorKeyword Red
+hi! link javascriptClassDefinition Yellow
+hi! link javascriptObjectKeyComputed Aqua
+hi! link javascriptxTagName Orange
+hi! link javascriptxComponentName Aqua
+hi! link javaScriptVariableDef Aqua
+hi! link javaScriptObjectProp Green
+hi! link javaScriptObjectKey Blue
+hi! link javaScriptParen Aqua
+hi! link javaScriptBracket Aqua
+hi! link javaScriptParenIfElse Aqua
+hi! link javaScriptParenRepeat Aqua
+hi! link javaScriptParenSwitch Aqua
+hi! link javaScriptGlobalObjects Yellow
+hi! link javaScriptFuncArgs Aqua
+hi! link javaScriptFunctionKey Green
+hi! link javaScriptThis Magenta
+hi! link javaScriptOperatorKeyword Red
+hi! link javaScriptClassDefinition Yellow
+hi! link javaScriptObjectKeyComputed Aqua
+hi! link javaScriptxTagName Orange
+hi! link javaScriptxComponentName Aqua
 hi! link jsVariableDef Aqua
 hi! link jsObjectProp Green
 hi! link jsObjectKey Blue
@@ -402,7 +436,8 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi CursorLine guifg=NONE guibg=#45565e guisp=NONE gui=NONE cterm=NONE
   hi CursorLineNr guifg=#7f8f9f guibg=#45565e guisp=NONE gui=NONE cterm=NONE
   hi LineNr guifg=#616c72 guibg=NONE guisp=NONE gui=NONE cterm=NONE
-  hi SignColumn guifg=NONE guibg=#45565e guisp=NONE gui=NONE cterm=NONE
+  " hi SignColumn guifg=NONE guibg=#45565e guisp=NONE gui=NONE cterm=NONE
+  hi SignColumn guifg=#f6e3bc guibg=#3c4c55 guisp=NONE gui=NONE cterm=NONE
   hi DiffAdd guifg=NONE guibg=#54695f guisp=NONE gui=NONE cterm=NONE
   hi DiffChange guifg=NONE guibg=#43596f guisp=NONE gui=NONE cterm=NONE
   hi DiffDelete guifg=NONE guibg=#70495d guisp=NONE gui=NONE cterm=NONE
@@ -412,7 +447,8 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi ModeMsg guifg=#f6e3bc guibg=NONE guisp=NONE gui=bold cterm=bold
   hi MoreMsg guifg=#eccc8f guibg=NONE guisp=NONE gui=bold cterm=bold
   hi FoldColumn guifg=#f6e3bc guibg=#616c72 guisp=NONE gui=NONE cterm=NONE
-  hi Folded guifg=#f6e3bc guibg=#616c72 guisp=NONE gui=NONE cterm=NONE
+  " hi Folded guifg=#f6e3bc guibg=#616c72 guisp=NONE gui=NONE cterm=NONE
+  hi Folded guifg=#b6a88b guibg=NONE guisp=NONE gui=NONE cterm=NONE
   hi IncSearch guifg=NONE guibg=#54695f guisp=NONE gui=bold cterm=bold
   hi Search guifg=NONE guibg=#70495d guisp=NONE gui=underline cterm=underline
   hi MatchParen guifg=NONE guibg=#576a72 guisp=NONE gui=bold cterm=bold
